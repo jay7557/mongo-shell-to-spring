@@ -13,7 +13,6 @@ npm install mongo-shell-to-spring
 
 #The find and findOne query example
 
-`````javascript
 const mongoToSpringConverter = require("mongo-shell-to-spring");
 
 const mongoQuery = "db.collection.find({ field: value })";
@@ -27,7 +26,6 @@ console.log("Collection Name:", collectionName);````
 
 #The aggregate query example
 
-```javascript
 const mongoToSpringConverter = require("mongo-shell-to-spring");
 
 const mongoShellQuery = "db.users.aggregate([
