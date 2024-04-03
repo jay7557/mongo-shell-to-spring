@@ -1,6 +1,6 @@
 {
   "name": "mongo-shell-to-spring",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "\"mongo-to-spring-converter\" is a utility that facilitates the conversion of MongoDB shell queries to Spring Data queries. It provides developers with a seamless way to translate MongoDB shell commands into equivalent Spring Data queries, streamlining the process of transitioning between MongoDB shell usage and Spring Data MongoDB integration. This tool enhances developer productivity by automating the translation process and ensuring consistency between MongoDB and Spring Data query syntax.",
   "main": "index.js",
   "repository": "https://github.com/jay7557/mongo-shell-to-spring.git",
