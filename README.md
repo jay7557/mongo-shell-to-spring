@@ -11,7 +11,7 @@ npm install mongo-shell-to-spring
 ``````
 ## Usage
 
-#The find and findOne query example
+The find and findOne query example
 
 ```javascript
 const mongoToSpringConverter = require("mongo-shell-to-spring");
@@ -23,9 +23,9 @@ console.log("Projection:", projection);
 console.log("Sort:", sort);
 console.log("Limit:", limit);
 console.log("Method:", method);
-console.log("Collection Name:", collectionName);```
-
-#The aggregate query example
+console.log("Collection Name:", collectionName);
+```
+The aggregate query example
 
 ```javascript
 const mongoToSpringConverter = require("mongo-shell-to-spring");
@@ -45,7 +45,7 @@ console.log("Limit:", limit);
 console.log("Pipeline:", pipeline);
 console.log("Method:", method);
 console.log("Collection Name:", collectionName);
-``````
+```
 
 ## Features
 
@@ -53,12 +53,4 @@ Convert MongoDB shell queries to Spring Data queries.
 Seamless transition between MongoDB and Spring Data MongoDB.
 Improves developer productivity by automating query translation.
 
-## Examples
 
-const mongoQuery = 'db.collection.find({ field: value })';
-const springQuery = mongoToSpringConverter.convert(mongoQuery);
-
-console.log('Spring Query:', springQuery);
-
-This README provides clear instructions on installation, usage, features, examples, and license information for your package. Adjustments can be made according to your specific package functionality and requirements.
-Package
