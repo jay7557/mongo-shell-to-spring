@@ -6,6 +6,7 @@
   "repository": "https://github.com/jay7557/mongo-shell-to-spring.git",
   "author": "Jay Patel <jaypatel@linkites.com>",
   "license": "MIT",
+  "keywords": ["MongoDB row query", "MongoDB shell command to Spring", "MongoDB string query to JSON"],
   "dependencies": {
     "mongodb": "^6.5.0"
   }
